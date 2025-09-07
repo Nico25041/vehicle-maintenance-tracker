@@ -15,7 +15,7 @@ export async function fetchCars(): Promise<Car[]> {
 }
 
 export async function createCar(car: Car): Promise<Car> {
-    const res = await fetch("http://localhost:8080/cars", {
+    const res = await fetch("API", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(car),
