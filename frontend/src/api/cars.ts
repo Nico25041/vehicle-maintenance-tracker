@@ -9,7 +9,7 @@ export interface Car {
 }
 
 export async function fetchCars(): Promise<Car[]> {
-    const res = await fetch("http://localhost:8080/cars");
+    const res = await fetch("API");
     if (!res.ok) throw new Error("Failed to fetch cars");
     return res.json();
 }
