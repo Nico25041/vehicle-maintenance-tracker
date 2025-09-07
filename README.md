@@ -19,6 +19,14 @@ Built with **Spring Boot (backend)** and **Next.js/React (frontend)**.
 - **Database**: MySQL / H2 (configurable)  
 
 ---
+## DEMO
+
+<img width="1470" height="757" alt="Screenshot 2025-09-06 at 3 43 40 PM" src="https://github.com/user-attachments/assets/ae7c0b29-ef5a-46ed-bc99-d278f18de381" />
+
+
+<img width="1469" height="707" alt="Screenshot 2025-09-06 at 3 47 22 PM" src="https://github.com/user-attachments/assets/6b8599cb-6d41-4f70-af8a-51db6b1030ce" />
+
+---
 
 ## 🚀 Getting Started
 
@@ -31,3 +39,5 @@ Built with **Spring Boot (backend)** and **Next.js/React (frontend)**.
 ```bash
 cd backend
 ./mvnw spring-boot:run
+
+
